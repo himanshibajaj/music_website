@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Default background */
+    color: black; /* Default text color */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    width: 150px; /* Adjust the width */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Center the logo if needed */
+    margin: 0 auto; /* Center alignment */
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for sections */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#playlist ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+#playlist li {
+    margin: 5px 0; /* Spacing between playlist items */
+}
+
+#themeSwitcher {
+    margin: 20px;
+    padding: 10px;
+}
+
+#songProgress {
+    margin: 20px;
+}
