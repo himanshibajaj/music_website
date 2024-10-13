@@ -1,51 +1,70 @@
+/* Basic resets */
 body {
     font-family: Arial, sans-serif;
-    background-color: white; /* Default background */
-    color: black; /* Default text color */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
     text-align: center;
+    background-color: #4a90e2; /* Header background color */
     padding: 20px;
+    color: white;
 }
 
 #logo {
     width: 150px; /* Adjust the width */
     height: auto; /* Keep the aspect ratio */
-    display: block; /* Center the logo if needed */
-    margin: 0 auto; /* Center alignment */
 }
 
 h1 {
     font-size: 2.5em;
+    margin: 10px 0;
 }
 
-section {
+h2 {
+    color: #4a90e2; /* Sub-header color */
+}
+
+#music-player, #playlist {
     margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc; /* Light border for sections */
-    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 button {
+    padding: 10px 15px;
     margin: 5px;
-    padding: 10px;
-    font-size: 1em;
+    background-color: #4a90e2; /* Button color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ab8; /* Darker shade on hover */
 }
 
 #playlist ul {
     list-style-type: none; /* Remove bullet points */
+    padding: 0;
 }
 
 #playlist li {
-    margin: 5px 0; /* Spacing between playlist items */
+    margin: 5px 0; /* Spacing between songs */
 }
 
-#themeSwitcher {
-    margin: 20px;
-    padding: 10px;
-}
-
-#songProgress {
-    margin: 20px;
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2; /* Footer background color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

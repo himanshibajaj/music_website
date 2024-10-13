@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Vibes</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
-    <script src="script.js" defer></script> <!-- Link to JavaScript file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Music Vibes Logo" id="logo">
+        <img src="images/logo.png" alt="Music Vibes Logo" id="logo"> <!-- Logo Image -->
         <h1>Welcome to Music Vibes</h1>
+        <p>Your one-stop destination for the best music!</p>
     </header>
 
     <section id="music-player">
-        <h2>Music Player</h2>
+        <h2>Now Playing</h2>
         <audio id="audioPlayer" controls>
             <source src="music/song1.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
@@ -30,7 +31,7 @@
     <section id="playlist">
         <h2>Playlist</h2>
         <ul>
-            <li><a href="#" class="song" data-song="music/song1.mp3">Song 1</a></li>
+            <li><a href="#" class="song" data-song="music/song1.mp3">Assa kooda</a></li>
             <li><a href="#" class="song" data-song="music/song2.mp3">Song 2</a></li>
             <li><a href="#" class="song" data-song="music/song3.mp3">Song 3</a></li>
         </ul>
@@ -43,5 +44,8 @@
         <input type="range" id="progressBar" value="0" max="100">
     </div>
 
+    <footer>
+        <p>&copy; 2024 Music Vibes. All rights reserved.</p>
+    </footer>
 </body>
 </html>
